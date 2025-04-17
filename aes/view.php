@@ -1,5 +1,5 @@
 <?php
-include 'config.php';
+include '../config.php';
 
 function aes_decrypt($data, $key) {
     $data = base64_decode($data);

@@ -1,4 +1,4 @@
-<form action="aes_save.php" method="post">
+<form action="save.php" method="post">
     Nama: <input type="text" name="nama"><br>
     NIM: <input type="text" name="nim"><br>
     Alamat: <input type="text" name="alamat"><br>

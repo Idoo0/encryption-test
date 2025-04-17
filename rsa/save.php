@@ -1,7 +1,7 @@
 <?php
-include 'config.php';
+include '../config.php';
 
-$publicKey = file_get_contents("public.pem");
+$publicKey = file_get_contents("../public.pem");
 
 function rsa_encrypt($data, $pubKey) {
     openssl_public_encrypt($data, $encrypted, $pubKey);

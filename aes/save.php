@@ -1,5 +1,5 @@
 <?php
-include 'config.php';
+include '../config.php';
 
 function aes_encrypt($data, $key) {
     $iv = openssl_random_pseudo_bytes(16);

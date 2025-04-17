@@ -1,7 +1,7 @@
 <?php
-include 'config.php';
+include '../config.php';
 
-$privateKey = file_get_contents("private.pem");
+$privateKey = file_get_contents("../private.pem");
 
 function rsa_decrypt($data, $privKey) {
     openssl_private_decrypt(base64_decode($data), $decrypted, $privKey);
